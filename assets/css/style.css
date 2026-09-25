@@ -1,0 +1,184 @@
+
+/*body*/
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:  #f4f7f6;
+    color:darkblue;
+    margin: 0;
+}
+/*judul*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 142, 22);
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.content{
+    background-color: white;
+    padding: 50px;
+    margin: 150px;
+    margin-top: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.content h2{
+    color: rgb(18, 18, 74);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.contentbuku{
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    margin-top: 70px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.contentbuku h2{
+    color: rgb(18, 18, 74);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+/*header*/
+header{
+    background-color:rgb(18, 18, 74);
+    text-align: center;
+    padding: 10px;
+}
+/*footer*/
+.credit{
+    background-color:rgb(18, 18, 74);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+/*navigasi*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    background-color:rgb(18, 18, 74);
+    color:white;
+    margin: 0;
+    margin-right: 10px;
+    display: inline;
+}
+nav ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 142, 22);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration-line: none;
+}
+/*tabel*/
+.table{
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 2px solid black;
+    
+}
+.table th,
+.table td{
+    padding: 10px;
+}
+.table th{
+    background-color: darkblue;
+    color: white;
+    border: 3px solid black;
+}
+.table td{
+   border: 3px solid black;
+   color:rgb(0, 34, 75);
+}
+.table tr:nth-child(even) {
+    background-color:beige;
+}
+
+/*foto*/
+h1 img{
+    vertical-align: middle;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar width 100% tidak over */
+    font-family: inherit;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border-color: #E10600;
+    outline: none;
+}
+/* Tombol (Buttons) */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #15151E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color:darkblue;
+}
+
+.btn-tambah {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  #15151E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.btn-edit {
+    background-color: rgb(194, 142, 22);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-hapus {
+    background-color: #E10600;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.btn-daftar{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 142, 22);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
