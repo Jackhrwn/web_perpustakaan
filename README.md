@@ -7,18 +7,6 @@ terhubung melalui relasi database.
 
 ---
 
-## Daftar Isi
-
-1. [Penjelasan Awal](#penjelasan-awal)
-2. [Dokumentasi Tampilan](#dokumentasi-tampilan)
-3. [Struktur Folder](#struktur-folder)
-4. [Alur Program](#alur-program)
-5. [Struktur Database](#struktur-database)
-6. [Cara Menjalankan](#cara-menjalankan)
-7. [Catatan Teknis](#catatan-teknis)
-
----
-
 ## Penjelasan Awal
 
 ### Latar Belakang
@@ -53,26 +41,6 @@ buku dan data peminjaman dalam satu antarmuka web sederhana.
 - **Server:** Apache (XAMPP)
 - **Frontend:** HTML5, CSS3 (murni, tanpa framework)
 - **Tampilan:** Desktop dan mobile (menggunakan `<meta name="viewport">`)
-
-### Arsitektur
-
-Aplikasi ini memakai arsitektur **prosedural sederhana** dengan pola pemisahan
-concern sebagai berikut:
-
-```
-Halaman Tampilan  ──POST──▶  File Proses  ──Query──▶  Database
-      ▲                           │
-      └───── redirect ────────────┘
-```
-
-- **File halaman** (`index.php`, `tambah.php`, `edit.php`) hanya menangani
-  pembacaan data dan menampilkan HTML.
-- **File proses** (`proses_*.php`) hanya menangani penulisan data ke database,
-  lalu mengarahkan (*redirect*) balik ke halaman daftar.
-- **`koneksi.php`** adalah file tunggal yang menjadi pusat koneksi database.
-
-Semua query menggunakan ekstensi **`mysqli`** (bukan PDO) dengan sintaks SQL
-langsung.
 
 ---
 
